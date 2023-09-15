@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{ 
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: black;
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 300px;
+    width: 100%;
+    height: 72px;
+    
+}
+.logo {
+   font-size: 32px;
+   color: rgba(21,180,21);
+   text-decoration: none;
+   font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.navbar button {
+    color: black;
+    background-color: rgba(44,243,77);
+    border-radius: 10px;
+    height: 35px;
+    width: 110px;
+    margin-left: 40px;
+}
+.topsection {
+    margin-bottom: 100px;
+}
+.first-container {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 180px;
+}
+ .first-container img  {
+    width: 383px;
+    height: 406px;
+    flex-shrink: 0;
+    margin-left: 400px;
+ }
+ .first-text {
+    color: #FFF;
+    font-size: 30px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+ }
+ .second-container {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 180px;
+ }
+ .second-container img {
+    width: 552.234px;
+    margin-right: 80px;
+    height: 263.444px;
+    flex-shrink: 0;
+ }
+ .second-text {
+    color: #FFF;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+ }
+ .third-card-container {
+    display: flex;
+    
+    justify-content: center;
+    color: rgb(245, 245, 245);
+ }
+ .third-card {
+    border: 3px solid;
+    border-color: rgb(10, 181, 35) rgb(10, 181, 8) rgb(66, 94, 70) rgb(16,97,25);
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+    border-radius: 5px;
+    height: 220px;
+    width: 360px;
+    font-size: 10px;
+    color: white;
+ }
+ .third-text-above-cards {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 120px;
+ }
+ .card-image {
+    align-items: center;
+ }
+ /* .fourth-container {
+   background-color:black;
+ }
+ .bullet-container1 {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    border: 3px solid;
+    border-width: 30px;
+
+ }
+ .left-column1 {
+    flex: 1;
+    padding: 0 10px;
+ }
+ .right-column1 {
+    flex: 1;
+    padding: 0 10px;
+ }
+ .disc {
+    list-style-type: disc;
+ } */
+ .fourth-container {
+    background-color:black;
+    padding: 20px;
+}
+
+.fourth-container ::before {
+    content: '';
+    position: absolute;
+}
+.bullet-container1 {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+}
+
+.left-column1 {
+    flex:1;
+    padding: 0 10px;
+}
+
+.right-column1 {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.disc {
+    list-style-type: disc;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .title p {
+    color: white;
+    font-size: 0.8em;
+  }
+  
+  .timeline{
+    margin: 4em auto;
+    max-width: 30em;
+  }
+  .checkpoint{
+    max-width: 25em;
+    margin-top: 10px;
+    position: relative;
+    color:white;
+  }
+  
+  .checkpoint{
+    border: 2px solid #888;
+    border-radius: 1em;
+    padding: 1.5em;
+    border-color: green;
+  }
+  .bullet-container1{
+    border: none;
+  }
+  .checkpoint:nth-child(even){
+    border-left: 3px solid #888;
+    padding-left: 3em;
+    transform: translateX(17em);
+  }
+  .checkpoint:nth-child(odd){
+    border-left: 3px solid #888;
+    padding-left: 3em;
+    transform: translateX(-17em);
+  }
+
+  .fifth-container {
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, rgb(0, 75, 5), rgb(1, 11, 3), rgb(0, 0, 0));
+  }
+  
+  .fifth-container img{
+    width: 400px;
+    margin-left: 450px;
+  }
+  .fifth-text{
+    margin-left: 300px;
+  }
+
+
+  /* Add this CSS code to your existing CSS */
+
+.timeline {
+    margin: 4em auto;
+    max-width: 30em;
+    position: relative;
+  }
+  
+  /* Styling the timeline line */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    width: 5px;
+    height: 100%;
+    background-color: green;
+    
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+      
+  /* Styling the disc-shaped nodes */
+  .checkpoint::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+   
+  }
+  
+  /* Positioning the nodes and horizontal lines for odd and even checkpoints */
+  .checkpoint:nth-child(odd)::before {
+    left: 100%;
+    
+  }
+  
+  .checkpoint:nth-child(even)::before {
+    right: 97%;
+    border-radius: 50px;
+    border-color: rgb(0, 75, 5) rgb(10, 181, 8) rgb(16,97,25) rgb(245, 245, 245)
+  }
+  
+  .checkpoint:nth-child(odd)::after,
+  .checkpoint:nth-child(even)::after {
+    content: '';
+    position: absolute;
+    width: 22%;
+    height: 2px;
+    background-color: greenyellow;
+    top: 50%; transform: translate(-50%, -50%);
+  
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+  
+  .checkpoint:nth-child(odd)::after {
+    left: 400px;
+  }
+  
+  .checkpoint:nth-child(even)::after {
+    width: 13%;
+    right: 400px;
+  }
+  
+  /* Style the bullet points */
+  .title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .title p {
+    font-size: 0.8em;
+  }
+  
+  
+  
+  .container {
+      text-align: center;
+      align-items: center;
+  }
+  
+  .social {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; 
+      width: 25%;
+      margin-left: 37%;
+      margin-top: 1%;
+  }
+  
+  .social-item {
+      text-align: center;
+  }
+  
+  .social-item a {
+      text-decoration: none;
+  }
+  
+  .social-item i {
+      margin-bottom: 10px;
+      margin-top: 3px;
+  }
+  
+  .social-item p{
+    font-size: 10px;
+    color: white;
+  }
+  
+  
+  
+  /* Style for the copyright notice */
+  .copyright {
+      flex-basis: 100%; /* Make it span the full width */
+      text-align: center;
+      padding: 10px 0;
+      color: #999; /* You can adjust the color as needed */
+  }
+  
