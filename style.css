@@ -128,7 +128,27 @@ body {
     line-height: normal;
     margin-right: -90px;
 }
-
+.one {
+    position: absolute;
+    top:120px;
+    left: 400px;
+    display: flex;
+    gap:7px;
+}
+.two {
+    position: absolute;
+    top: 175px;
+    left: 620px;
+    display: flex;
+    gap: 7px;
+}
+.three {
+    position: absolute;
+    top: 320px;
+    left: 600px;
+    display: flex;
+    gap: 7px;
+}
 .second-container {
     display: flex;
     align-items: center;
@@ -238,6 +258,7 @@ body {
 
 .left-column1 {
     flex: 1;
+    margin-left: 30px;
     padding: 0 10px;
 }
 
@@ -285,7 +306,7 @@ body {
 
 .left-image{
     position: absolute;
-    left: -1rem;
+    left: 0.5rem;
     bottom: -2rem;
     padding-left: 0.5rem;
 
@@ -552,13 +573,13 @@ background: rgba(255, 255, 255, 0.05);  */
 } */
 
 .color-grad {
-    width: 356px;
+    width: 300px;
     height: 300px;
     flex-shrink: 0;
-    border-radius: 356px;
-    background: rgba(87,42,132,0.50);
+    border-radius: 300px;
+    /* background: rgba(87,42,132,0.50);
      filter: blur(100px); 
-    margin-top: 60px;
+    margin-top: 60px; */
 }
 .gradient-background {
     background: linear-gradient(to bottom, #000000, #ffffff); /* Replace with your desired colors */
