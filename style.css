@@ -9,10 +9,15 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif, 'Mulish',sans-serif, 'Venner',sans-serif;
 }
-
+.main {
+    width: 100%;
+   
+}
 body {
     min-height: 100vh;
     background: black;
+ 
+   
     /* background-size: cover;
     background-position: center;
     background: url(Green.png); */
@@ -23,6 +28,8 @@ body {
     align-items: flex-end;
     gap: 280px;
     font-family: 'Mulish', sans-serif;
+    
+    gap: 280px;
 }
 
 .logo {
@@ -34,6 +41,7 @@ body {
     font-family: 'Veneer', sans-serif;
     font-size: 40px;
     font-weight: 400;
+    margin-left: -260px;
 
     background: var(--PM3, linear-gradient(90deg, #0DF128 0%, #9AEB5F 100%));
     background-clip: text;
@@ -94,9 +102,12 @@ body {
 }
 
 .topsection {
-    margin-bottom: 100px;
+    
     display: flex;
     justify-content: center;
+    width: 1440px;
+    height: 72px;
+    gap: 10px;
 }
 
 .first-container {
@@ -127,6 +138,7 @@ body {
     font-weight: 600;
     line-height: normal;
     margin-right: -90px;
+    margin-left: -130px;
 }
 .one {
     position: absolute;
@@ -153,8 +165,9 @@ body {
     display: flex;
     align-items: center;
     margin-left: 200px;
-    margin-top: 180px;
+    margin-top: 10px;
     position: relative;
+   
 }
 
 .Back-ground {
@@ -289,11 +302,11 @@ body {
     margin-top: 10px;
     position: relative;
     color: white;
-    /* border: 2px solid transparent;
-    border-radius: 12px; */
+     /* border: 2px solid white; */
+   /* border-radius: 12px; */
     border-image: 1000px;
     padding: 1.5em;
-    border-image: linear-gradient(to bottom, green, lightgreen ,#393737); 
+    /* border-image: linear-gradient(to bottom, green, lightgreen ,#393737);  */
     /* border-image-slice: 1;  */
     
 }
@@ -328,10 +341,12 @@ border: 1px solid rgba(33, 231, 134, 0.13);
 background: rgba(255, 255, 255, 0.05);  */
     padding-left: 1em;
     transform: translateX(17em);
-    
+    /* border: 2px solid ; */
+    border-width: 5px;
     width: 464px;
     height: 210px;
     flex-shrink: 0;
+    /* border-left: 3px solid #888; */
 }
 
 .checkpoint:nth-child(odd) {
@@ -399,8 +414,8 @@ background: rgba(255, 255, 255, 0.05);  */
 .checkpoint::before {
     content: '';
     position: absolute;
-    width: 14px;
-    height: 12px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: rgb(20,20,20);
     top: 50%;
@@ -538,12 +553,16 @@ background: rgba(255, 255, 255, 0.05);  */
 
 .test-1 {
     position: relative;
+    margin-left: -300px;
 }
 
 .test-2 {
     position: absolute;
     bottom: 30px;
     right: 50px;
+    width: 478px;
+    height: 75px;
+    border-radius: 66px;
 }
 
 .test-3 {
@@ -573,13 +592,16 @@ background: rgba(255, 255, 255, 0.05);  */
 } */
 
 .color-grad {
-    width: 300px;
-    height: 300px;
+    width: 356px;
+    height: 356px;
     flex-shrink: 0;
-    border-radius: 300px;
-    /* background: rgba(87,42,132,0.50);
+    background-size: cover;
+    position: relative;
+    /* background-image: url('Ellipse.svg'); */
+    border-radius: 356px;
+     background: rgba(87,42,132,0.50); 
      filter: blur(100px); 
-    margin-top: 60px; */
+    margin-top: -150px; 
 }
 .gradient-background {
     background: linear-gradient(to bottom, #000000, #ffffff); /* Replace with your desired colors */
@@ -587,22 +609,26 @@ background: rgba(255, 255, 255, 0.05);  */
 }
 
 .color-green {
-    width: 540px;
+    width: 440px;
     height: 540px;
     flex-shrink: 0;
     border-radius: 540px;
-    background: rgba(54,186,43, 0.20);
-    filter: blur(195px);
-    margin-top: 253px;
+  margin-left: -200px;
+   background: rgba(54,186,43,0.20);
+   filter: blur(195px);
+    margin-top: 353px;
+
 }
-/* .first-color {
+.first-color {
     width: 540px;
     height: 540px;
     flex-shrink: 0;
     border-radius: 540px;
     background: rgba(15,126,19,0.24);
     filter: blur(195px);
-} */
+    top: -153px;
+    left: -199px;
+}
 
 .test-7 {
     font-size: 40px;
