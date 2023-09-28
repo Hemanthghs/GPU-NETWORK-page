@@ -9,6 +9,10 @@
   font-family: "Poppins", sans-serif, "Mulish", sans-serif, "Venner", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main {
   width: 100%;
 }
@@ -38,7 +42,7 @@ body {
   font-family: "Veneer", sans-serif;
   font-size: 40px;
   font-weight: 400;
-
+  cursor: pointer;
   background: var(--PM3, linear-gradient(90deg, #0df128 0%, #9aeb5f 100%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -102,8 +106,8 @@ body {
 }
 
 .first-container .first-image {
-  width: 751px;
-  height: 476px;
+  width: 464px;
+  height: 491px;
   flex-shrink: 0;
   margin-left: 400px;
   display: inline-flex;
@@ -166,7 +170,6 @@ body {
   left: 200px;
 }
 
-
 .bg-thread {
   background-image: url(bg-thread.png);
   background-size: cover;
@@ -178,7 +181,6 @@ body {
   z-index: -1;
   transform: rotate(348deg);
 }
-
 
 .second-container img {
   display: block;
@@ -368,7 +370,6 @@ body {
   align-items: center;
   margin-top: 180px;
   color: rgb(255, 255, 255);
-  /* background: linear-gradient(90deg, rgb(0, 75, 5), rgb(1, 11, 3), rgb(0, 0, 0)); */
   background: linear-gradient(
     90deg,
     rgba(22, 83, 25, 0.7) -0.62%,
@@ -658,4 +659,20 @@ footer {
   width: 523px;
   height: 360px;
   flex-shrink: 0;
+}
+
+.join-btn {
+  text-decoration: none;
+  display: inline;
+  color: black;
+  cursor: pointer;
+}
+
+.join-btn button:hover {
+  cursor: pointer;
+}
+
+.nav-join-link {
+  margin-left: 0 !important;
+  color: black !important;
 }

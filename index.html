@@ -26,13 +26,20 @@
         <div>
           <div class="navigation">
             <header class="header">
-              <a hred="#" class="logo"><b>ARKA NETWORK</b></a>
+              <a href="" class="logo"><b>ARKA NETWORK</b></a>
               <nav class="navbar">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Products</a>
+                <a href="/">Home</a>
+                <a href="#about">About</a>
+                <a href="#features">Products</a>
                 <a href="#">Docs</a>
-                <button>Join Community</button>
+                <button class="join-btn">
+                  <a
+                    target="_blank"
+                    class="nav-join-link"
+                    href="https://t.me/c/1982236507/1"
+                    >Join Community</a
+                  >
+                </button>
               </nav>
             </header>
           </div>
@@ -52,18 +59,24 @@
                 and&nbsp;content&nbsp;creators</span
               >
               <br /><br />
-              <p><button class="first-container-btn">Join Community</button></p>
+              <p>
+                <a
+                  target="_blank"
+                  class="join-btn"
+                  href="https://t.me/c/1982236507/1"
+                >
+                  <button class="first-container-btn">Join Community</button>
+                </a>
+              </p>
             </div>
-            <div class="test-1">
-              <img
-                class="first-image"
-                src="bg-1-svg.svg"
-                data-aos="fade-left"
-                data-aos-duration="1200"
-                width="50"
-                alt="first-image"
-              />
-            </div>
+            <img
+              class="first-image"
+              src="home-bg.png"
+              data-aos="fade-left"
+              data-aos-duration="1200"
+              width="50"
+              alt="first-image"
+            />
             <div class="color-green"></div>
           </div>
         </div>
@@ -163,18 +176,16 @@
             </div>
           </div>
         </div>
-        <div class="second-container">
-          <div class="Back-ground">
-
-          </div>
+        <div id="about" class="second-container">
+          <div class="Back-ground"></div>
           <div class="bg-thread"></div>
           <img
-          src="about-bg.jpeg"
-          width="50"
-          alt="secondimage"
-          data-aos="fade-left"
-          data-aos-duration="1200"
-        />
+            src="about-bg.jpeg"
+            width="50"
+            alt="secondimage"
+            data-aos="fade-left"
+            data-aos-duration="1200"
+          />
           <div class="second-text" data-aos="fade-up" data-aos-duration="1500">
             <h4>
               <span
@@ -206,7 +217,7 @@
             </p>
           </div>
         </div>
-        <div class="third-container">
+        <div id="features" class="third-container">
           <div class="third-text-above-cards">
             <b>Protocol Features</b><br />
           </div>
@@ -467,20 +478,23 @@
               Stay connected and dive into the future with our latest updates!
             </div>
             <p>
-              <button
-                style="
-                  border-radius: 60px;
-                  padding: 9px 18px;
-                  font-size: 14px;
-                  font-weight: 600;
-                  gap: 7px;
-                  border: none;
-                  background: linear-gradient(#0df128, #9aed5f);
-                  font-family: 'Mulish', sans-serif;
-                "
+              <a class="join-btn" target="_blank" href="https://t.me/c/1982236507/1">
+                <button
+                  style="
+                    border-radius: 60px;
+                    padding: 9px 18px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    gap: 7px;
+                    border: none;
+                    background: linear-gradient(#0df128, #9aed5f);
+                    font-family: 'Mulish', sans-serif;
+                  "
+                 
+                >
+                  Join Community
+                </button></a
               >
-                Join Community
-              </button>
             </p>
           </div>
 
@@ -493,7 +507,9 @@
         <a hred="#" class="footer-logo"><b>ARKA NETWORK</b></a>
       </div>
       <div class="socials">
-        <img src="telegram.png" alt="" />
+        <a class="join-btn" target="_blank" href="https://t.me/c/1982236507/1">
+            <img src="telegram.png" alt="" />
+        </a>
         <div>
           <div>@ 2023 Arka Network. All rights reserved</div>
         </div>
