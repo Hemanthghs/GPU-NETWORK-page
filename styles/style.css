@@ -104,17 +104,18 @@ body {
 .first-container {
   display: flex;
   align-items: center;
-  margin: 200px 200px;
+  margin: 0 200px;
   position: relative;
   justify-content: space-between;
+  margin-top: 250px;
+  margin-bottom: 320px;
 }
 
 .first-container .first-image {
-  width: 464px;
-  height: 491px;
+  width: 500px;
+  height: 529px;
   flex-shrink: 0;
   display: inline-flex;
-  padding: 16px 32px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -186,16 +187,18 @@ body {
 
 .second-text {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
   width: 60%;
+  padding-left: 24px;
 }
 
 .third-container {
   margin-top: 128px;
+  margin-bottom: 128px;
 }
 
 .third-card-container {
@@ -250,6 +253,7 @@ body {
 .fourth-container {
   padding: 0 0;
   margin-top: 128px;
+  margin-bottom: 128px;
 }
 
 .fourth-container ::before {
@@ -441,7 +445,7 @@ body {
 }
 
 .second-container {
-  background-image: url("../images/rocket-img-bg.png");
+  background-image: url("../images/rock-bg.png");
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -608,7 +612,7 @@ body {
 }
 
 footer {
-  padding: 24px 0;
+  padding: 24px 0 8px 0;
   color: white;
   text-align: center;
 }
@@ -616,24 +620,20 @@ footer {
 .first-container-btn {
   color: #262626;
   font-family: "Mulish" sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   background: var(--PM3, linear-gradient(90deg, #0df128 0%, #9aeb5f 100%));
-  padding: 16px 32px;
+  padding: 16px 16px;
   border: none;
   font-weight: 400;
   border-radius: 30px;
-  height: 56px;
-}
-
-.socials img {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 16px;
+  height: 36px;
+  display: flex;
+  align-items: center;
 }
 
 .fifth-container img {
-  width: 420px;
-  height: 420px;
+  width: 450px;
+  height: 350px;
   flex-shrink: 0;
 }
 
@@ -642,6 +642,10 @@ footer {
   display: inline;
   color: black;
   cursor: pointer;
+}
+
+.home-join-btn {
+  line-height: 0;
 }
 
 .join-btn button:hover {
@@ -653,6 +657,41 @@ footer {
   color: black !important;
 }
 
+.timeline h5 {
+  font-family: "Mulish", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.timeline .bullet-container1 {
+  font-size: 18px;
+  line-height: 32px;
+}
+
 /* Responsive View Styles  */
-@media only screen and (min-width: 1) {
+@media only screen and (max-width: 1600px) {
+  .header {
+    margin: 0 100px;
+  }
+
+  .first-container {
+    margin: 200px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .third-card-container {
+    margin: 0 100px;
+  }
+
+  .second-container {
+    padding: 40px 100px;
+    margin: 0 auto;
+  }
+
+  .fifth-container {
+    padding: 0px 100px;
+    margin: 0 auto;
+  }
 }
