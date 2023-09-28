@@ -95,17 +95,15 @@ body {
 .first-container {
   display: flex;
   align-items: center;
-  margin: 0px 200px;
+  margin: 200px 200px;
   position: relative;
   justify-content: space-between;
-  margin-bottom: 100px;
 }
 
 .first-container .first-image {
   width: 464px;
   height: 491px;
   flex-shrink: 0;
-  margin-left: 400px;
   display: inline-flex;
   padding: 16px 32px;
   justify-content: center;
@@ -437,6 +435,7 @@ body {
 
 .second-container {
   background-image: url('rocket-img-bg.png');
+  background-repeat: no-repeat;
   height: 100vh;
 }
 
@@ -645,8 +644,8 @@ footer {
 }
 
 .fifth-container img {
-  width: 523px;
-  height: 360px;
+  width: 420px;
+  height: 420px;
   flex-shrink: 0;
 }
 
