@@ -20,10 +20,6 @@ html {
 body {
   min-height: 100vh;
   background: #0b0b0b;
-
-  /* background-size: cover;
-    background-position: center;
-    background: url(Green.png); */
 }
 
 .header {
@@ -305,10 +301,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 240px;
-  border: 1px solid rgba(33, 231, 134, 0.13);
+  /* border: 1px solid rgba(33, 231, 134, 0.13); */
   border-radius: 8px;
   margin-right: 10px;
-  background: rgba(255, 255, 255, 0.05);
+  /* background: rgba(255, 255, 255, 0.05); */
   /* width: 4640px; */
 }
 
@@ -318,7 +314,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 240px;
-  border: 1px solid rgba(33, 231, 134, 0.13);
+  /* border: 1px solid rgba(33, 231, 134, 0.13); */
   border-radius: 8px;
   margin-right: 20px;
 }
@@ -464,7 +460,7 @@ body {
 .checkpoint-2 {
   margin-left: 26px;
   width: 580px;
-  background: rgba(255, 255, 255, 0.05);
+  /* background: rgba(255, 255, 255, 0.05); */
 }
 
 .right-checkpoint {
