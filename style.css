@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   font-family: "Mulish", sans-serif;
   align-items: center;
-  margin: 10px 200px;
+  margin: 48px 200px;
   margin-bottom: 100px;
 }
 
@@ -102,8 +102,8 @@ body {
 }
 
 .first-container .first-image {
-  width: 480px;
-  height: 500px;
+  width: 595px;
+  height: 504px;
   flex-shrink: 0;
   margin-left: 400px;
   display: inline-flex;
@@ -151,6 +151,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0px 200px;
+  margin-top: 128px;
   position: relative;
 }
 
@@ -183,6 +184,10 @@ body {
   line-height: 30px;
 }
 
+.third-container {
+  margin-top: 128px;
+}
+
 .third-card-container {
   display: flex;
   margin: 0 200px;
@@ -207,7 +212,6 @@ body {
   text-align: center;
   color: rgb(255, 255, 255);
   margin-bottom: 20px;
-  margin-top: 120px;
   font-family: "Mulish", sans-serif;
   font-size: 30px;
   font-style: normal;
@@ -235,7 +239,8 @@ body {
 
 .fourth-container {
   background-color: black;
-  padding: 20px 0;
+  padding: 0 0;
+  margin-top: 128px;
 }
 
 .fourth-container ::before {
@@ -357,12 +362,6 @@ body {
   padding: 0 200px;
 }
 
-.fifth-container img {
-  width: 400px;
-  margin-left: 250px;
-  margin-bottom: 90px;
-}
-
 .fifth-text {
   font-family: "Mulish", sans-serif;
   font-size: 40px;
@@ -374,7 +373,7 @@ body {
 /* Add this CSS code to your existing CSS */
 
 .timeline {
-  margin: 4em auto;
+  margin: 48px auto;
   max-width: 30em;
   position: relative;
 }
@@ -383,11 +382,10 @@ body {
 .timeline::before {
   content: "";
   position: absolute;
-  top: 10%;
-
+  top: 8%;
   left: 45%;
   width: 5px;
-  height: 77%;
+  height: 82%;
   background-color: green;
   /* background: linear-gradient(90deg, rgba(13, 241, 40, 0.80) 0%, rgba(154, 235, 95, 0.80) 100%); */
   margin-top: 20px;
@@ -599,10 +597,9 @@ body {
 
 footer {
   margin: 0 200px;
-  padding: 10px 0;
+  padding: 40px 0;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -620,9 +617,30 @@ footer {
   font-family: "Mulish" sans-serif;
   font-size: 20px;
   background: var(--PM3, linear-gradient(90deg, #0df128 0%, #9aeb5f 100%));
-  padding:16px 32px;
+  padding: 16px 32px;
   border: none;
   font-weight: 400;
   border-radius: 30px;
   height: 56px;
+}
+
+.socials {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.socials img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 16px;
+}
+
+
+.fifth-container img {
+  width: 523px;
+  height: 360px;
+  flex-shrink: 0;
 }
