@@ -29,6 +29,7 @@ body {
   align-items: center;
   /* Change the marign as required */
   margin: 10px 200px;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -276,15 +277,7 @@ body {
   width: 580px;
 }
 
-/* .checkpoint {
-    max-width: 25em;
-    margin-top: 10px;
-    position: relative;
-    color: white;
-    border-image: 1000px;
-    padding: 1.5em;
-  } */
-
+  
 .checkpoint-1 {
   display: flex;
   flex-direction: column;
@@ -295,6 +288,7 @@ body {
   border-radius: 8px;
   margin-right: 10px;
   background: rgba(255, 255, 255, 0.05);
+  /* width: 4640px; */
 }
 
 .checkpoint-1:nth-child(even) {
@@ -312,7 +306,7 @@ body {
 
 .right-image {
   position: absolute;
-  right: -20px;
+  right: -16px;
   /* bottom: 0.5rem; */
   height: 270px;
 }
@@ -323,6 +317,7 @@ body {
   bottom: -2rem;
   padding-left: 0.5rem;
   height: 270px;
+  left: 10px
 }
 
 .bullet-container1 {
@@ -565,10 +560,7 @@ body {
   border-radius: 66px;
 }
 
-.test-3 {
-  /* margin-left: 220px;
-    margin-right: 100px; */
-}
+
 
 .test-5 {
   background-image: linear-gradient(to bottom,
@@ -580,20 +572,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 296px;
+  
   width: 370px;
   margin: 20px;
 }
 
-/* .test-6{
-    background-image: linear-gradient(to bottom ,white, lightgreen, rgb(50, 46, 46));
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    width: 20px;
-    height: 100%;
-} */
+
 
 .color-grad {
   width: 356px;
@@ -613,7 +597,7 @@ body {
   background: linear-gradient(to bottom,
       #000000,
       #ffffff);
-  /* Replace with your desired colors */
+ 
   background-position: top;
 }
 
@@ -659,11 +643,3 @@ body {
   font-size: 40px;
 }
 
-/* .Back-ground {
-    width: 427px;
-    height: 427px;
-    flex-shrink: 0;
-    border-radius: 427px;
-    background:linear-gradient(90deg, #0DF128 0%, #9AEB5F 100% );
-    
-} */
