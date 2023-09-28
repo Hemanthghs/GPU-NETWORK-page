@@ -149,10 +149,9 @@ body {
 .second-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
   padding: 40px 200px;
   margin-top: 128px;
-  position: relative;
   background: rgba(255, 255, 255, 0.01);
 }
 
@@ -178,25 +177,14 @@ body {
   transform: rotate(348deg);
 }
 
-.second-container img {
-  display: block;
-  width: 531px;
-  /* margin-top: 80px;
-  margin-right: 80px;
-  margin-left: -40px; */
-  height: 348px;
-  flex-shrink: 0;
-}
-
 .second-text {
   color: #fff;
   font-size: 20px;
-  margin-left: 200px;
-  margin-right: 10px;
   font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  width: 60%;
 }
 
 .third-container {
@@ -445,6 +433,11 @@ body {
 
   transform: translateY(-50%);
   z-index: -1;
+}
+
+.second-container {
+  background-image: url('rocket-img-bg.png');
+  height: 100vh;
 }
 
 .checkpoint:nth-child(odd)::after {
