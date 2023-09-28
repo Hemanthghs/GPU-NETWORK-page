@@ -27,8 +27,17 @@ body {
   justify-content: space-between;
   font-family: "Mulish", sans-serif;
   align-items: center;
-  margin: 32px 200px;
-  margin-bottom: 100px;
+  margin: 0 200px;
+  padding: 10px 0;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 
 .logo {
@@ -154,7 +163,7 @@ body {
 }
 
 .Back-ground {
-  background-image: url("Circle.svg");
+  background-image: url("../images/Circle.svg");
   background-size: cover;
   width: 530px;
   height: 530px;
@@ -164,7 +173,7 @@ body {
 }
 
 .bg-thread {
-  background-image: url(bg-thread.png);
+  background-image: url("../images/bg-thread.png");
   background-size: cover;
   width: 540px;
   height: 411px;
@@ -424,8 +433,6 @@ body {
   position: absolute;
   width: 16%;
   height: 5px;
-  /* background-color: greenyellow;  */
-  /* background-image: url('Line.png'); */
   top: 50%;
   transform: translate(-50%, -50%);
 
@@ -434,19 +441,19 @@ body {
 }
 
 .second-container {
-  background-image: url('rocket-img-bg.png');
+  background-image: url("../images/rocket-img-bg.png");
   background-repeat: no-repeat;
   height: 100vh;
 }
 
 .checkpoint:nth-child(odd)::after {
   left: 415px;
-  background-image: url("Line2.png");
+  background-image: url("../images/Line2.png");
 }
 
 .checkpoint:nth-child(even)::after {
   right: 384px;
-  background-image: url("Line.png");
+  background-image: url("../images/Line.png");
 }
 
 .checkpoint-2 {
@@ -601,20 +608,9 @@ body {
 }
 
 footer {
-  margin: 0 200px;
-  padding: 40px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-logo {
-  font-family: "Veneer", sans-serif;
-  font-size: 40px;
-  background: var(--PM3, linear-gradient(90deg, #0df128 0%, #9aeb5f 100%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  padding: 24px 0;
+  color: white;
+  text-align: center;
 }
 
 .first-container-btn {
@@ -627,14 +623,6 @@ footer {
   font-weight: 400;
   border-radius: 30px;
   height: 56px;
-}
-
-.socials {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: end;
 }
 
 .socials img {
@@ -663,4 +651,8 @@ footer {
 .nav-join-link {
   margin-left: 0 !important;
   color: black !important;
+}
+
+/* Responsive View Styles  */
+@media only screen and (min-width: 1) {
 }
