@@ -15,8 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
   </head>
 
   <body>
@@ -25,14 +25,16 @@
       <div class="color-green-1"></div>
       <div>
         <div>
-          <div class="navigation">
+          <div class="desktop-nav" class="navigation">
             <header class="header">
-              <a href="" class="logo"><b>ARKA NETWORK</b></a>
+              <a href="" class="logo">
+                <img src="./images/logo.svg" alt="" />
+              </a>
               <nav class="navbar">
-                <a href="#">Home</a>
-                <a href="#about">About</a>
-                <a href="#features">Products</a>
-                <a target="_blank" href="http://docs.arka.network/">Docs</a>
+                <a href="#" onclick="myFunction()">Home</a>
+                <a href="#about" onclick="myFunction()">About</a>
+                <a href="#features" onclick="myFunction()">Products</a>
+                <a target="_blank" href="http://docs.arka.network/" onclick="myFunction()">Docs</a>
                 <button class="join-btn">
                   <a
                     target="_blank"
@@ -42,33 +44,62 @@
                   >
                 </button>
               </nav>
+              <div class="menu" onclick="myFunction()">
+                <img class="menu-icon" src="images/menu-icon.svg" alt="" />
+                <img class="xmark-icon" src="images/xmark.svg" alt="" />
+              </div>
             </header>
+          </div>
+          <div class="mobile-nav" class="navigation">
+            <header class="header">
+              <a href="" class="logo">
+                <img src="./images/logo.svg" alt="" />
+              </a>
+
+              <div class="menu" onclick="myFunction()">
+                <img class="menu-icon" src="images/menu-icon.svg" alt="" />
+                <img class="xmark-icon" src="images/xmark.svg" alt="" />
+              </div>
+            </header>
+            <nav class="navbar">
+              <a href="#" onclick="myFunction()">Home</a>
+              <a href="#about" onclick="myFunction()">About</a>
+              <a href="#features" onclick="myFunction()">Products</a>
+              <a target="_blank" href="http://docs.arka.network/" onclick="myFunction()">Docs</a>
+              <button class="join-btn">
+                <a
+                  target="_blank"
+                  class="nav-join-link"
+                  href="https://t.me/c/1982236507/1"
+                  >JOIN OUR COMMUNITY</a
+                >
+              </button>
+            </nav>
           </div>
           <div class="first-container">
             <div class="first-text" data-aos="fade-up" data-aos-duration="1500">
-              <p>Decentalized&nbsp; Platform&nbsp;For</p>
-              <br />
-              <span
-                style="
-                  font-family: Newsreader;
-                  color: #0df128;
-                  font-size: 48px;
-                  font-weight: 600;
-                  line-height: 56px;
-                "
-                >AI developers <br />
-                and&nbsp;content&nbsp;creators</span
-              >
-              <br /><br />
-              <p>
+              <p class="first-text-1">
+                Transcending AI&nbsp;Artistry <br />
+                through Decentralization
+              </p>
+              <p class="first-container-sub-text">
+                Join us in pioneering the next wave of
+                AI&NoBreak;-&NoBreak;driven content creation. <br />
+                <span
+                  >Your journey into the decentralized future begins here.</span
+                >
+              </p>
+              <div class="first-container-join-btn">
                 <a
                   target="_blank"
                   class="join-btn"
                   href="https://t.me/c/1982236507/1"
                 >
-                  <button class="first-container-btn">JOIN OUR COMMUNITY</button>
+                  <button class="first-container-btn">
+                    JOIN OUR COMMUNITY
+                  </button>
                 </a>
-              </p>
+              </div>
             </div>
             <img
               class="first-image"
@@ -109,9 +140,9 @@
                       line-height: 24px;
                     "
                   >
-                    Arka Network enables AI developers to mint Models as NFTs,
-                    offering diverse monetization options and utility for the
-                    models.</span
+                    At the convergence of creativity and code, transform your AI
+                    models into prized NFT assets, unlocking a new era of
+                    monetization.</span
                   >
                 </p>
               </div>
@@ -139,9 +170,9 @@
                       line-height: 24px;
                     "
                   >
-                    Arka Network's "Creator Toolbox" provides a vast AI model
-                    selection, prompt generation, and editing tools, NFT
-                    creation for efficient and seamless content creation.</span
+                    Harness sophisticated AI models to sculpt diverse digital
+                    narratives, and seamlessly turn them into sought-after
+                    tokens.</span
                   >
                 </p>
               </div>
@@ -168,9 +199,8 @@
                       font-weight: 600;
                       line-height: 24px;
                     "
-                    >Arka Network adds leasing and licensing to NFTs, boosting
-                    their utility and offering varied monetization for both
-                    creators and holders. .</span
+                    >Navigate a vibrant bazaar for NFT trading, enriched with
+                    tailor-made licensing and exclusive leasing avenues.</span
                   >
                 </p>
               </div>
@@ -179,37 +209,34 @@
         </div>
         <div id="about" class="second-container">
           <div class="second-text" data-aos="fade-up" data-aos-duration="1500">
-            <h4>
+            <h4 class="about-title">
               <span
                 style="
-                  font-size: 36px;
+                  color: #0df128;
+                  font-size: 48px;
                   font-weight: 700;
                   line-height: 60px;
                   font-family: 'Mulish' sans-serif;
                 "
-                >What Challenges Does Arka Want to Solve? </span
-              ><br /><br />
+                >About Us
+              </span>
             </h4>
             <p>
-              Monetization Hurdles for AI Developers: Many AI developers find it
-              challenging to locate platforms that allow them to effectively
-              monetize their work. Traditional avenues often don't offer the
-              desired financial returns.
+              Welcome to Arka Network, where AI innovation merges with creative
+              application. Our platform connects AI developers and content
+              creators, amplified by powerful GPU networks. Here, ideas evolve,
+              get shared, and are monetized.
             </p>
             <br />
             <p>
-              Limited Utility of NFTs: Current platforms primarily use NFTs for
-              trading, overlooking their potential for other applications.
-            </p>
-            <br />
-            <p>
-              Inadequate Tools for Content Creation: A significant number of
-              platforms offer insufficient tools, hindering creators from
-              generating diverse and top-tier content.
+              Dive into a landscape where AI transforms into art, content
+              elevates, and each creation can become a celebrated, tradable NFT.
+              Arka stands at the nexus of technology and creativity, driving
+              both in a decentralized future.
             </p>
           </div>
         </div>
-        <div id="features" class="third-container">
+        <div id="features" class="third-container protocol-features">
           <div class="third-text-above-cards">
             <b>Protocol Features</b><br />
           </div>
@@ -224,7 +251,7 @@
                       font-family: 'Mulish', sans-serif;
                       font-weight: 600;
                     "
-                    >Model as nft</span
+                    >Model as NFT</span
                   >
                 </h2>
                 <br />
@@ -298,7 +325,7 @@
                     "
                     >Arka Network adds leasing and licensing to NFTs, boosting
                     their utility and offering varied monetization for both
-                    creators and holders. .</span
+                    creators and holders.</span
                   >
                 </p>
               </div>
@@ -306,16 +333,7 @@
           </div>
         </div>
         <div class="fourth-container">
-          <div class="title">
-            <span
-              style="
-                font-family: 'Mulish', sans-serif;
-                font-size: 36px;
-                font-weight: 600;
-              "
-              >Roadmap</span
-            ><br />
-          </div>
+          <div class="third-text-above-cards"><b>Roadmap</b><br /></div>
           <div class="timeline">
             <div class="checkpoint checkpoint-1">
               <img
@@ -324,7 +342,7 @@
                 alt="right image"
               />
               <h5>
-                  <b>Q1</b>
+                <b>Q1</b>
               </h5>
               <br />
               <div class="bullet-container1">
@@ -342,14 +360,13 @@
                 alt="left-image"
               />
               <div class="checkpoint-1 checkpoint-2">
-                <h5><b>Q2</b>
-                </h5>
+                <h5><b>Q2</b></h5>
                 <br />
                 <div class="bullet-container1">
                   <ul>
                     <li>Arka private beta + testnet</li>
                     <li>Creator community onboarding</li>
-                    <li>$ARK Private Sale</li>
+                    <li>$ARKA Private Sale</li>
                   </ul>
                 </div>
               </div>
@@ -366,7 +383,7 @@
               <br />
               <div class="bullet-container1">
                 <ul>
-                  <li>Incentivised testnet +</li>
+                  <li>Incentivised testnet</li>
                   <li>Model training for AI developers</li>
                   <li>Airdrop to early community</li>
                 </ul>
@@ -380,7 +397,7 @@
               />
               <div class="checkpoint-1 checkpoint-2">
                 <h5>
-                    <b>Q4</b>
+                  <b>Q4</b>
                 </h5>
                 <br />
                 <div class="bullet-container1">
@@ -399,7 +416,7 @@
                 alt="right image"
               />
               <h5>
-                  <b>2nd Year</b>
+                <b>2nd Year</b>
               </h5>
               <br />
               <div class="bullet-container1">
@@ -407,7 +424,7 @@
                   <li>Arka Mobile App Launch</li>
                   <li>NFT Leasing & Licensing</li>
                   <li>
-                    Arka Ecosystem func for creators <br />
+                    Arka Ecosystem fund for creators <br />
                     & developers
                   </li>
                 </ul>
@@ -421,12 +438,12 @@
               />
               <div class="checkpoint-1 checkpoint-2">
                 <h5>
-                    <b>3rd Year</b>
+                  <b>3rd Year</b>
                 </h5>
                 <br />
                 <div class="bullet-container1">
                   <ul>
-                    <li>Arka Brand alliance</li>
+                    <li>Arka Brand Alliance</li>
                     <li>Multichain compatibility</li>
                     <li>Arka DAO launch</li>
                   </ul>
@@ -434,11 +451,103 @@
               </div>
             </div>
           </div>
+          <div class="mobile-timeline">
+            <div class="mobile-timeline-card card-odd">
+              <img src="images/Vector (1).svg" alt="" />
+              <div class="mobile-timeline__content">
+                <h2><b>Q1</b></h2>
+                <ul>
+                  <li>Docs</li>
+                  <li>Initial models onboarding</li>
+                  <li>dGPU network integration</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mobile-timeline-line">
+              <div class="moblie-timeline-dot moblie-timeline-dot-1"></div>
+              <div class="moblie-timeline-dot moblie-timeline-dot-2"></div>
+            </div>
+            <div class="mobile-timeline-card card-even">
+              <img src="images/Vector.svg" alt="" />
+              <div class="mobile-timeline__content">
+                <h2><b>Q2</b></h2>
+                <ul>
+                  <li>Arka private beta + testnet</li>
+                  <li>Creator community onboarding</li>
+                  <li>$ARKA Private Sale</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mobile-timeline-line">
+              <div class="moblie-timeline-dot moblie-timeline-dot-1"></div>
+              <div class="moblie-timeline-dot moblie-timeline-dot-2"></div>
+            </div>
+            <div class="mobile-timeline-card card-odd">
+              <img src="images/Vector (1).svg" alt="" />
+              <div class="mobile-timeline__content">
+                <h2><b>Q3</b></h2>
+                <ul>
+                  <li>Incentivised testnet</li>
+                  <li>Model training for AI developers</li>
+                  <li>Airdrop to early community</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mobile-timeline-line">
+              <div class="moblie-timeline-dot moblie-timeline-dot-1"></div>
+              <div class="moblie-timeline-dot moblie-timeline-dot-2"></div>
+            </div>
+            <div class="mobile-timeline-card card-even">
+              <img src="images/Vector.svg" alt="" />
+              <div class="mobile-timeline__content">
+                <h2><b>Q4</b></h2>
+                <ul>
+                  <li>Model as NFT</li>
+                  <li>NFT Marketplace</li>
+                  <li>Mainnet & Public Sale</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mobile-timeline-line">
+              <div class="moblie-timeline-dot moblie-timeline-dot-1"></div>
+              <div class="moblie-timeline-dot moblie-timeline-dot-2"></div>
+            </div>
+            <div class="mobile-timeline-card card-odd">
+              <img src="images/Vector (1).svg" alt="" />
+              <div class="mobile-timeline__content">
+                <h2><b>2nd Year</b></h2>
+                <ul>
+                  <li>Arka Mobile App Launch</li>
+                  <li>NFT Leasing & Licensing</li>
+                  <li>
+                    Arka Ecosystem fund for creators & developers
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="mobile-timeline-line">
+              <div class="moblie-timeline-dot moblie-timeline-dot-1"></div>
+              <div class="moblie-timeline-dot moblie-timeline-dot-2"></div>
+            </div>
+            <div class="mobile-timeline-card card-even">
+              <img src="images/Vector.svg" alt="" />
+              <div class="mobile-timeline__content">
+                <h2><b>3rd Year</b></h2>
+                <ul>
+                  <li>Arka Brand Alliance</li>
+                  <li>Multichain compatibility</li>
+                  <li>Arka DAO launch</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="fifth-container">
-          <div class="fifth-text">
-            <div class="test-7">
-              Stay connected and dive into the future with our latest updates!
+          <div>
+            <div class="fifth-text">
+              Join us to redefine how the world
+              <span class="fifth-text-break"><br /></span>
+              interacts with AI and NFTs.
             </div>
             <p>
               <a
@@ -458,7 +567,7 @@
                     font-family: 'Mulish', sans-serif;
                   "
                 >
-                JOIN OUR COMMUNITY
+                  JOIN OUR COMMUNITY
                 </button></a
               >
             </p>
@@ -470,11 +579,42 @@
     </div>
     <footer>
       <div>
-        <div>&#169; 2023 Arka Network. All rights reserved</div>
+        <div>Arka Network &#169; 2023 . All rights reserved.</div>
       </div>
     </footer>
   </body>
   <script>
     AOS.init();
+    function myFunction() {
+      for(let i=0; i<2; i++) {
+        var headerEle = document.getElementsByClassName("header")[i];
+      if (headerEle.className === "header") {
+        headerEle.className += " header-open";
+      } else {
+        headerEle.className = "header";
+      }
+
+      var navbarEle = document.getElementsByClassName("navbar")[i];
+      if (navbarEle.className === "navbar") {
+        navbarEle.className += " navbar-open";
+      } else {
+        navbarEle.className = "navbar";
+      }
+
+      var menuIcon = document.getElementsByClassName("menu-icon")[i];
+      if (menuIcon.className === "menu-icon") {
+        menuIcon.className += " menu-icon-open";
+      } else {
+        menuIcon.className = "menu-icon";
+      }
+
+      var xmarkIcon = document.getElementsByClassName("xmark-icon")[i];
+      if (xmarkIcon.className === "xmark-icon") {
+        xmarkIcon.className += " xmark-icon-close";
+      } else {
+        xmarkIcon.className = "xmark-icon";
+      }
+      }
+    }
   </script>
 </html>
