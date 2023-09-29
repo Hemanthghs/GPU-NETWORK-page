@@ -761,6 +761,10 @@ footer {
     font-size: 32px;
   }
 
+  .first-text {
+    margin-top: 16px;
+  }
+
   .first-container-sub-text {
     font-size: 16px;
     margin-top: 16px;
